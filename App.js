@@ -1,11 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import SignUpForm from './components/sign-up-form';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Coding Bootcamp Ru Mobile Client</Text>
+        <SignUpForm />
       </View>
     );
   }
